@@ -1,7 +1,6 @@
 let password = document.getElementById("password");
 let strengthBar = document.getElementById("strength");
-let message = document.getElementById("message");//getElement lets you grab things from html
-//listens to what you type it like going live
+
 password.addEventListener("input", function(){
 
 let value = password.value;
